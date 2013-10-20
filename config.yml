@@ -1,0 +1,23 @@
+# config for review-epubmaker
+# rake publish:epub
+# rake publish:pdf (require latex)
+
+# filename 
+bookname: output
+# title
+booktitle: ReVIEWサンプル書籍
+# author info
+aut: 和田 将義 # author
+prt: きょーくりっRecords
+prt_url: http://kyokuri.org
+edt: 和田 将義 # editor
+date: 2013-10-19
+rights: |
+  (C) 2013 Masayoshi Wada
+stylesheet: main.css
+toclevel: 2
+secnolevel: 3
+mytoc: true
+colophon: true
+pubhistory: |
+  2013年10月19日 初版発行
